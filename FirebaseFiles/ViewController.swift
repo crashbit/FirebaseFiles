@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
+    //Referencia al servicio de Cloud Storage
+    let storage = Storage.storage()
 
     override func viewDidLoad() {
         super.viewDidLoad()
